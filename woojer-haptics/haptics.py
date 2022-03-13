@@ -41,7 +41,7 @@ def haptic_handler(*args: bool):
         print("Touching Center")  
     elif args == ("/avatar/parameters/HapticTail", True):
         sd.play(TailData, Tailfs,loop=True)
-        print(red("Tail pulled!"), ("It was probably Jones."))
+        print(("Tail pulled!"), ("It was probably Jones."))
     else:
         sd.play(IdleData, Idlefs,loop=True)
                         
