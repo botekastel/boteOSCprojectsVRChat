@@ -1,2 +1,2 @@
 # boteOSCprojects
-smashing the keyboard to do very basic osc things
+just archiving stuff i work on encase it helps someone else
