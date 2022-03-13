@@ -4,4 +4,4 @@ I use this script to send audio files to my Woojer Edge Vest based on VRChat par
 
 Purely proof of concept. 
 
-Server listens on port 9006. I use a osc message forwarding script to send messages to this script and a few others.
+Server listens on port 9006. 
