@@ -30,18 +30,18 @@ sd.play(IdleData, Idlefs,loop=True)
     
 def haptic_handler(*args: bool):
     #(location, trigger) = args
-    if args == ("/avatar/parameters/HapticLeft", True):
+    if args == ("/avatar/parameters/HapticLeft", 1):
         sd.play(LeftData, Leftfs,loop=True)
         print("Touching Left")
-    elif args == ("/avatar/parameters/HapticRight", True):
+    elif args == ("/avatar/parameters/HapticRight", 1):
         sd.play(RightData, Rightfs,loop=True)
         print("Touching Right")        
-    elif args == ("/avatar/parameters/HapticBoth", True):
+    elif args == ("/avatar/parameters/HapticBoth", 1):
         sd.play(BothData, Bothfs,loop=True)
         print("Touching Center")  
     elif args == ("/avatar/parameters/HapticTail", True):
         sd.play(TailData, Tailfs,loop=True)
-        print(("Tail pulled!"), ("It was probably Jones."))
+        print(red("Tail pulled!"), ("It was probably Jones."))
     else:
         sd.play(IdleData, Idlefs,loop=True)
                         
